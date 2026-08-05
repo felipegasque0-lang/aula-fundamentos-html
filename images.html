@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img-pequena{
+        width: 30%;
+        height: 250px;
+        object-fit: fit;
+
+    }
+
+    .img-destque{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+    img{
+        border-radius: 50px;
+        border: 10px dashed yellow;
+    }
+    .div-images{
+        margin-top: 30px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: space-between;
+    }
+    body{
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    <div>
+        <img class = "img-destque" src ="F1.jpg" alt="foto carro mclaren laranja">
+    </div>
+
+    <div class="div-images">
+        <img class= "img-pequena" src="F2.jpg" alt="foto carro ferrari vermelha">
+        <img class= "img-pequena" src="F3.jpg" alt="foto carro fiat branco">
+        <img class= "img-pequena" src="F4.jpg" alt="foto carro fiat cinza">
+    </div>
+</body>
+</html>
